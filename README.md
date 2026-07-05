@@ -2,8 +2,8 @@
 
 Auto-checked, correctly categorized, fully deduplicated (1 working link per channel), dead links removed automatically.
 
-**Total live channels:** 491  
-**Last updated:** 2026-07-05 08:40:54 UTC
+**Total live channels:** 511  
+**Last updated:** 2026-07-05 13:07:30 UTC
 
 ## Playlist URL
 ```text
@@ -31,5 +31,5 @@ https://raw.githubusercontent.com/nuttle-nuttterr/Tv-by-Claude/main/master_playl
 | English Lifestyle & Travel | 2 |
 | English Kids | 3 |
 | Local Channels | 38 |
-| Tamil Local Channels | 357 |
+| Tamil Local Channels | 377 |
 | Tamil IPTV Channels | 20 |

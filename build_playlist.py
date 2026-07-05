@@ -537,7 +537,7 @@ def main():
         f.write(f"**Total live channels:** {total_added}  \n**Last updated:** {timestamp}\n\n")
         f.write("## Playlist URL\n```text\n")
         f.write(
-            "https://raw.githubusercontent.com/<YOUR_USER>/<YOUR_REPO>/main/master_playlist.m3u\n"
+            "https://raw.githubusercontent.com/nuttle-nuttterr/Tv-by-Claude/main/master_playlist.m3u\n"
         )
         f.write("```\n\n## Channel Breakdown\n| Category | Count |\n|---|---|\n")
         for cat in CATEGORY_ORDER:

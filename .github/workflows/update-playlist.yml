@@ -1,0 +1,53 @@
+name: Update IPTV Playlist
+
+on:
+  schedule:
+    # Runs every 6 hours (00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: "0 */6 * * *"
+  workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: iptv-playlist-update
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install --no-cache-dir requests
+
+      - name: Run playlist builder
+        run: python build_playlist.py
+
+      - name: Commit and push (rebase-safe)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add master_playlist.m3u README.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: auto-update playlist [skip ci]"
+
+          # Pull any concurrent changes and force-resolve in our favor
+          # so scheduled runs never fail on push conflicts.
+          git pull --rebase -X ours origin main || true
+          git push origin HEAD:main

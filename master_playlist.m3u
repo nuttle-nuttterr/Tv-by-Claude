@@ -1,6 +1,6 @@
 #EXTM3U
 #PLAYLIST:Fixed & Deduplicated Tamil/English IPTV Playlist
-#GENERATED:2026-07-05 13:14:13 UTC
+#GENERATED:2026-07-05 19:02:36 UTC
 
 
 # --- Tamil GEC (8 channels) ---
@@ -18,7 +18,7 @@ http://tv.tamilwebcast.com/live/TWC-FAMILY/TWC-FAMILY/427772.ts?channelId=89829&
 http://tv.tamilwebcast.com/live/TWC-FAMILY/TWC-FAMILY/427786.ts?channelId=89836&uid=4710&deviceMac=00:1A:79:83:6F:C5|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Star Vijay" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_256/sources/r1/cms/prod/7405/1752743467405-h" group-title="Tamil GEC",Star Vijay
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://linearjitp-playback.astro.com.my/dash-wv/linear/2707/default_ott.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://livetv.hotstar.com/mp2/gec-india/068ea5304f1841f4ac839311c7f539b8/index_7.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Sun Tv" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sun_TV_HD.png" group-title="Tamil GEC",Sun Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://vt-ip.vodep39240327.workers.dev/777.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -47,7 +47,7 @@ https://segment.yuppcdn.net/050522/murasu/playlist.m3u8|User-Agent=Mozilla/5.0 (
 https://tinyurl.com/yaarokayaar1110-channel58|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Star Vijay Super" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1199/1752742701199-h" group-title="Tamil Movies",Star Vijay Super
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-http://tv.tamilwebcast.com/live/TWC-FAMILY/TWC-FAMILY/427806.ts?channelId=43518&uid=4710&deviceMac=00:1A:79:83:6F:C5|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://livetv.hotstar.com/mp2/gec-india/c65ada10b4604667a9cd9495f1387e87/index_7.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Zee Thirai" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-224/list/1920x1080listb7f3310976d14ed59a22940af7587e9a.jpg" group-title="Tamil Movies",Zee Thirai
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://z5live-cf.zee5.com/out/v1/ZEE5_Live_Channels/Zee-Thirai-HD/index/index.m3u8?hdntl=exp=1772644797~acl=/*~id=148f3102-72b0-49d7-86e4-ae4745519567~data=hdntl~hmac=3a7e5085afc8dd305eaa14d9a85214388dc03f50666467c752a8d8fe6557e6e6|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -200,7 +200,7 @@ http://202.70.146.135:8000/play/a06r/index.m3u8|User-Agent=Mozilla/5.0 (Windows 
 http://103.159.180.34:5001/live/3276.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Wb" tvg-logo="https://www.ashokadigital.net/_next/image?url=https%3A%2F%2Flivetv.ashokadigital.net%2Fupload%2Flogo%2F1756798791_Logo_00341.png&w=1920&q=75" group-title="English Movies",Wb
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/4434fd47-6d46-43e9-b132-fab122edc732/manifest.m3u8?ads.channel=6593&ads.content_custom_1_param=FAST&ads.user=2&ads.content_custom_3_param=YuppFastIndia&hdnts=st=1783252588~exp=1783274188~acl=!*/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/4434fd47-6d46-43e9-b132-fab122edc732/*!/payload/yupptvott_5_-1_3b6f5839-0b53-aa06-7a80-023047a6357c_US_52.225.29.100_yuppfast_2_channel_52_-1/*~data=yupptvott_5_-1_3b6f5839-0b53-aa06-7a80-023047a6357c_US_52.225.29.100_yuppfast_2_channel_52_-1~hmac=fd9b99f220b5dbb8f7c568b8f662a82c63b4d201322d6db9b29a303061de8fb2&ads.network_name=yuppfast&ads.app_store_url=&ads.app_bundle=&ads.content_livestream=1&ads.content_genre=MOVIES&ads.channel_name=CowboyMovieChannel&ads.language=ENG&ads.user=0|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://vt-ip.vodep39240327.workers.dev/2615.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 
 # --- English National News (7 channels) ---
 #EXTINF:-1 tvg-name="Cnn-News18" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/CNN_NEWS_18.png" group-title="English National News",Cnn-News18
@@ -264,7 +264,7 @@ http://202.70.146.135:8000/play/a067/index.m3u8|User-Agent=Mozilla/5.0 (Windows 
 # --- English Lifestyle & Travel (2 channels) ---
 #EXTINF:-1 tvg-name="Goodtimes" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/mxzyyw.png" group-title="English Lifestyle & Travel",Goodtimes
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://d2gvyg6lvauoko.cloudfront.net/230226/ndtvgoodtimes/playlist.m3u8?ads.channel=205&ads.content_custom_1_param=FAST&ads.user=2?ads.channel=205&ads.content_custom_1_param=FAST&ads.user=2&ads.content_custom_3_param=YuppFastIndia&hdnts=st=1783252588~exp=1783274188~acl=!*/230226/ndtvgoodtimes/*!/payload/yupptvott_5_-1_3b6f5839-0b53-aa06-7a80-023047a6357c_US_52.225.29.100_yuppfast_2_channel_4_-1/*~data=yupptvott_5_-1_3b6f5839-0b53-aa06-7a80-023047a6357c_US_52.225.29.100_yuppfast_2_channel_4_-1~hmac=92ea246b04ebb7678394f59ddbf4a71c0e894c322360b747bbe423c26ce8c335&ads.network_name=yuppfast&ads.app_store_url=&ads.app_bundle=&ads.content_livestream=1&ads.content_genre=LIFESTYLE&ads.channel_name=NDTVGoodTimes&ads.language=ENG&ads.user=0|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://d2gvyg6lvauoko.cloudfront.net/230226/ndtvgoodtimes/playlist.m3u8?ads.channel=205&ads.content_custom_1_param=FAST&ads.user=2?ads.channel=205&ads.content_custom_1_param=FAST&ads.user=2&ads.content_custom_3_param=YuppFastIndia&hdnts=st=1783274911~exp=1783296511~acl=!*/230226/ndtvgoodtimes/*!/payload/yupptvott_5_-1_3b6f5839-0b53-aa06-7a80-023047a6357c_US_52.173.163.131_yuppfast_2_channel_4_-1/*~data=yupptvott_5_-1_3b6f5839-0b53-aa06-7a80-023047a6357c_US_52.173.163.131_yuppfast_2_channel_4_-1~hmac=e1faa518aa19f29852894f70a063f8cca4b58f04284c33c62ec423c627320a31&ads.network_name=yuppfast&ads.app_store_url=&ads.app_bundle=&ads.content_livestream=1&ads.content_genre=LIFESTYLE&ads.channel_name=NDTVGoodTimes&ads.language=ENG&ads.user=0|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Travelxp" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Travel_XP_HD.png" group-title="English Lifestyle & Travel",Travelxp
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 http://103.159.180.34:5001/live/164.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -272,13 +272,13 @@ http://103.159.180.34:5001/live/164.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0
 # --- English Kids (3 channels) ---
 #EXTINF:-1 tvg-name="Disney Channel" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Disney_Channel.png" group-title="English Kids",Disney Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://vt-ip.vodep39240327.workers.dev/234.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+http://202.70.146.135:8000/play/a01q/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Disney Junior" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Disney_Junior.png" group-title="English Kids",Disney Junior
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-http://185.102.171.218/DisneyJunior/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://vt-ip.vodep39240327.workers.dev/1346.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Nickelodeon" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Nickelodeon_Jr.png" group-title="English Kids",Nickelodeon
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-http://193.239.186.231/NICK/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://vt-ip.vodep39240327.workers.dev/229.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 
 # --- Local Channels (7 channels) ---
 #EXTINF:-1 tvg-name="Ntv" tvg-logo="" group-title="Local Channels",Ntv
@@ -303,7 +303,7 @@ https://galaxyott.live/hls/suryatv.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0;
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://stream.galaxyott.live/live/utv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 
-# --- Tamil Local Channels (383 channels) ---
+# --- Tamil Local Channels (385 channels) ---
 #EXTINF:-1 tvg-name="0 Info Tv" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1757781783_0%20.%20ASHOKA%20DIGITAL%20LOGO.png" group-title="Tamil Local Channels",0 Info Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://stream.ashokadigital.net/ashokaslm/live/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -322,9 +322,6 @@ https://notvstream.in/queens/queens/index.m3u8|User-Agent=Mozilla/5.0 (Windows N
 #EXTINF:-1 tvg-name="126 Shakthi Channel" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1777567856_SALRHI%20TV%20LOGO%20PNG%20copy.png" group-title="Tamil Local Channels",126 Shakthi Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://cloudstream4k.com/shakthihd/bsk/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="186 Jet Tv" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1781170961_JET%20TV%20LOGO%20MAIN%20PNG.png" group-title="Tamil Local Channels",186 Jet Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://stream.apcloud.in/jettvhd/jettv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="2 Ashoka Tv" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1782816106_Ashoka%20TV%20LOGO%20SWF.gif" group-title="Tamil Local Channels",2 Ashoka Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://stream.ashokadigital.net/ashokaslm/ashokahd/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -352,9 +349,9 @@ http://premium.7starcloud.com:1935/live/7star/live.m3u8|User-Agent=Mozilla/5.0 (
 #EXTINF:-1 tvg-name="50 Citi Channel" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1756799145_f22cf45b-82ba-480e-b49f-b6dd13221249-removebg-preview.png" group-title="Tamil Local Channels",50 Citi Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://stream.ashokadigital.net/cititv/cititvhd/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="52 Voice Tv" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1754494620_Ver%202.0_04.png" group-title="Tamil Local Channels",52 Voice Tv
+#EXTINF:-1 tvg-name="501 ಅಶೋಕ Info Tv" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1782906505_ka%202.png" group-title="Tamil Local Channels",501 ಅಶೋಕ Info Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://stream.ashokadigital.net/voicetv/voicetvhd/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://livetv.ashokadigital.net/upload/vod/1755166998_Benaka_Gold_New_Ad_1mint_1_.mp4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="605 Rr Tv 1" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1782895630_0%20.%20ASHOKA%20DIGITAL%20LOGO.png" group-title="Tamil Local Channels",605 Rr Tv 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://mumbai-edge.smartplaytv.in/rrtv1/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -418,6 +415,9 @@ https://newsliveindia.com:4433/bharat/index.m3u8|User-Agent=Mozilla/5.0 (Windows
 #EXTINF:-1 tvg-name="922 Vii Media" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1780243421_vii%20media%20png.png" group-title="Tamil Local Channels",922 Vii Media
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://viimedia.wiseplayout.com:5556/viimedia/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="A1 Media News" tvg-logo="https://phoenixcreations.online/ott/jayamott/uploads/1778983617_WhatsApp%20Image%202026-05-17%20at%207.34.58%20AM.jpeg" group-title="Tamil Local Channels",A1 Media News
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+http://sanplayout.xyz/live2/a1medianews/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="A1 Tv Ariyalur" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1775921579_A1%20TV%2020%20copy.png" group-title="Tamil Local Channels",A1 Tv Ariyalur
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://app.ashokadigital.net/app/0fca457c/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -427,9 +427,6 @@ http://aadhavantamiltv.phoenixcreations.online/aadhavantamiltv/aadhavantamiltv/i
 #EXTINF:-1 tvg-name="Aadhavan Tv" tvg-logo="https://vmfm.github.io/tamilvmtv/image/aadhavan-tv2.jpg" group-title="Tamil Local Channels",Aadhavan Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://view.apserver.in/tmp_hls3/aadhavantv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Aaron Tv" tvg-logo="https://raw.githubusercontent.com/amazeyourself/tamil-local-iptv/refs/heads/main/logos/AaronTV.png" group-title="Tamil Local Channels",Aaron Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-http://stream.onecloudlive.in/sachintv/aarontvhd/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Aarthi Tv" tvg-logo="https://vmfm.github.io/tamilvmtv/image/arthi-tv-1.png" group-title="Tamil Local Channels",Aarthi Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://anywhere.pwisetthon.com/http://198.144.149.206:8080/NOTV/AARTHITV/index.m3u8?token=GTR|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -517,9 +514,6 @@ https://play.applelive.in/appletv/appletv.m3u8|User-Agent=Mozilla/5.0 (Windows N
 #EXTINF:-1 tvg-name="Appu Tv" tvg-logo="https://tataprime.files.wordpress.com/2024/02/20240222_1356268705171385431914312.png" group-title="Tamil Local Channels",Appu Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 http://198.144.149.206:8080/NOTV/IWORLDHD/index.m3u8?token=GTR|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Aps Tv Gold" tvg-logo="https://raw.githubusercontent.com/amazeyourself/tamil-local-iptv/refs/heads/main/logos/APSTVGold.png" group-title="Tamil Local Channels",Aps Tv Gold
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://apsgold-a1.tamilstream.in/apsgold/apsgold/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Aramm Tv" tvg-logo="https://play-lh.googleusercontent.com/l8pRSESzaMShO9uvpib8hr5x9x8iltkzvVSQVewH5cYevDPFzmt1Aznr50utJchZbkTu=w512-h960-rw" group-title="Tamil Local Channels",Aramm Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://singamcloud.in/arammtv/arammtv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -531,7 +525,7 @@ https://ipcloud.live/ctn/arasu/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.
 https://dmtv.iptv.pics/live/dmtv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Ark Tv" tvg-logo="https://sscloud7.in/app/sscloud7/assets/tvchannels/phoenixtv-tvchannelavathar-phoenixtv1724773607.jpg" group-title="Tamil Local Channels",Ark Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://ktismaservers.in:3917/live/arktvlive.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://ark.inet.moe/ark/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Arputhar Yesu Tv" tvg-logo="https://arputharyesutv.net/wp-content/uploads/2022/07/AR-LOGO-PNG.png" group-title="Tamil Local Channels",Arputhar Yesu Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://arputharyesutv.arputharyesutv.com/live/md/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -565,9 +559,6 @@ https://play.applelive.in/ayyatv/ayyatv.m3u8|User-Agent=Mozilla/5.0 (Windows NT 
 #EXTINF:-1 tvg-name="Azhagi Tv" tvg-logo="https://vmfm.github.io/tamilvmtv/image/azhagi-tv.jpg" group-title="Tamil Local Channels",Azhagi Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://view.rcserver.in/tmp_hls17/azhagitv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Bama Tv" tvg-logo="https://tataprime.files.wordpress.com/2024/02/20240224_025831756712452387924318.png" group-title="Tamil Local Channels",Bama Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-http://bamatv.phoenixcreations.online/bamatv/bama/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Bass Tv" tvg-logo="https://play-lh.googleusercontent.com/x6njvZ3CWH4ZYi8T5vfRdrpB9CVy3FBUwow_ExUZ3BoMVXxxVoo_7V5xmTaJ1Q2FuE7K" group-title="Tamil Local Channels",Bass Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://app.xstream.onecloudlive.in/bass/basstv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -592,9 +583,9 @@ https://live1.sscloud7.in/live/yovantv/playlist.m3u8|User-Agent=Mozilla/5.0 (Win
 #EXTINF:-1 tvg-name="Blue Moon Tv" tvg-logo="https://raw.githubusercontent.com/amazeyourself/tamil-local-iptv/refs/heads/main/logos/BMTV.png" group-title="Tamil Local Channels",Blue Moon Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://rtmp.bmlive.net/bms/bmtv/stream.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Boobsh Tv" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1743337212_1000035047-removebg-preview.png" group-title="Tamil Local Channels",Boobsh Tv
+#EXTINF:-1 tvg-name="Boys Tv" tvg-logo="https://www.ashokadigital.net/_next/image?url=https%3A%2F%2Flivetv.ashokadigital.net%2Fupload%2Flogo%2F1746641352_1746637562_boys_tv-removebg-preview.png&w=1080&q=75" group-title="Tamil Local Channels",Boys Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://live.applelive.in/boobsh/boobsh/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://rtmp.applelive.in/boystv/boystv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Bright Simrose Tv" tvg-logo="https://www.ashokadigital.net/_next/image?url=https%3A%2F%2Flivetv.ashokadigital.net%2Fupload%2Flogo%2F1744202967_WhatsApp%2520Image%25202025-04-09%2520at%25201.03.03%2520PM.jpeg&w=1920&q=75" group-title="Tamil Local Channels",Bright Simrose Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://notvstream.in/brightsimrosetv/brightsimrosetv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -615,22 +606,22 @@ https://server.streamwell.in/hls/chittoortvhd.m3u8|User-Agent=Mozilla/5.0 (Windo
 https://hlsstream.olidigital.in/cholatv/cholatv/index.m3u8?token=dHVsbml0X3N0ZWFsc19zaGl0|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="City Tv" tvg-logo="https://raw.githubusercontent.com/amazeyourself/tamil-local-iptv/refs/heads/main/logos/CityTV.png" group-title="Tamil Local Channels",City Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://stream.onecloudlive.in/citytv/citytv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://hd.singamcloud.in/citytv/citytv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Crayonz Tv" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1775814267_CRAYONZ%20TV%20LOGO%20NEW(2).png" group-title="Tamil Local Channels",Crayonz Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+http://sanplayout.xyz/live2/crayonztv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Cross Tv" tvg-logo="https://play-lh.googleusercontent.com/WogiHnNy_zWGvEkgFmKpeX5qHK-IBW6S7Q013WabPKOwCh0oU1ebmEL4gAi5MJRE0ek" group-title="Tamil Local Channels",Cross Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://ytv.iptv.pics/hls/cross.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Crs Tv" tvg-logo="https://tamiltvchannels.com/img/devotional/Crs%20TV.png" group-title="Tamil Local Channels",Crs Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://play.applelive.in/crstv/crstv.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Cuddalore Voice Tv" tvg-logo="https://www.ashokadigital.net/_next/image?url=https%3A%2F%2Flivetv.ashokadigital.net%2Fupload%2Flogo%2F1754494620_Ver%25202.0_04.png&w=1080&q=75" group-title="Tamil Local Channels",Cuddalore Voice Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-http://voicetv.stream.ashokadigital.net:8080/voicetv/voicetvhd/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="D Tv" tvg-logo="https://tamilradios.org/wp-content/uploads/2025/01/dtv.png" group-title="Tamil Local Channels",D Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://view.rcserver.in/tmp_hls33/dtv/index.m3u8?token=YW1hemV5|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Dark Television" tvg-logo="https://play-lh.googleusercontent.com/GPwEalUw7RIHmutwfZpIS1RtFSIXYk6nzvht_bnRj8nT2PW-WqcDX4LjZeqTSLDwwT0=w512-h960-rw" group-title="Tamil Local Channels",Dark Television
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://play.applelive.in/darktv/darktv.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Deavathai Tv" tvg-logo="https://vmfm.github.io/tamilvmtv/image/devathai-tv.jpg" group-title="Tamil Local Channels",Deavathai Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://ipcloud.live/devadhaitv/devadhaitv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Deebam Tv" tvg-logo="https://bmcloud.in/apptest/uploads/6854fcb41cf23.png" group-title="Tamil Local Channels",Deebam Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://play.applelive.in/deebamtv/deebamtv.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -658,6 +649,9 @@ https://stream.onecloudlive.in/taitaltv/livetv/index.m3u8|User-Agent=Mozilla/5.0
 #EXTINF:-1 tvg-name="Dheiveegam Tv" tvg-logo="https://www.ashokadigital.net/_next/image?url=https%3A%2F%2Flivetv.ashokadigital.net%2Fupload%2Flogo%2F1731847296_WhatsApp_Image_2024-11-17_at_6.04.32_PM-removebg-preview.png&w=1920&q=75" group-title="Tamil Local Channels",Dheiveegam Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://stream.singamcloud.in/Dheiveegamtv/Dheiveegamtv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Diamond Tv" tvg-logo="" group-title="Tamil Local Channels",Diamond Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://real-vk.proxy.nellaiiptv.com/DIAMONDTV/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Digital Tv" tvg-logo="https://tamiltvchannels.com/img/tamil%20local/digital%20tv.png" group-title="Tamil Local Channels",Digital Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://play.applelive.in/digitaltv/digitaltv.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -673,6 +667,9 @@ https://view.rcserver.in/tmp_hls31/dolphintv/index.m3u8|User-Agent=Mozilla/5.0 (
 #EXTINF:-1 tvg-name="Durai Tv" tvg-logo="https://firebasestorage.googleapis.com/v0/b/cloud-multiapp.appspot.com/o/durai%20tv-4k.png?alt=media&token=632d3193-0055-4c0f-85a0-d912660239c8" group-title="Tamil Local Channels",Durai Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://ipcloud.live/duraitv/live/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Duresh Tv" tvg-logo="https://files.catbox.moe/2ozvwh.gif" group-title="Tamil Local Channels",Duresh Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://real-vk.proxy.nellaiiptv.com/PDPTV/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Eagle Tv" tvg-logo="https://www.ashokadigital.net/_next/image?url=https%3A%2F%2Flivetv.ashokadigital.net%2Fupload%2Flogo%2F1746463528_WhatsApp_Image_2025-05-05_at_8.17.32_PM-removebg-preview.png&w=1080&q=75" group-title="Tamil Local Channels",Eagle Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://rtmp.bmlive.net/bms/eagletv/stream.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -721,18 +718,21 @@ https://srv4.nellaiiptv.com/live/SHYGKW/index.m3u8|User-Agent=Mozilla/5.0 (Windo
 #EXTINF:-1 tvg-name="Go Revival Tv" tvg-logo="https://i.imgur.com/h9hsOt0.jpg" group-title="Tamil Local Channels",Go Revival Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://ktismaservers.in:3870/live/gorevivaltvlive.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Golden Tv" tvg-logo="" group-title="Tamil Local Channels",Golden Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+http://sanplayout.xyz/live2/goldentv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Gospel Tv" tvg-logo="https://play-lh.googleusercontent.com/tOX8EmefKiK1v8A3eRnrDd9w8Poe1WnYu3KfguQGbnfg0Aw6YknsiSfZWxBqGrGirKQ=w512-h960-rw" group-title="Tamil Local Channels",Gospel Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://play.applelive.in/gospeltv/gospeltv.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Grace Tv" tvg-logo="https://phoenixcreations.online/ott/joshuaott/uploads/1761714754_grace%20Chengalpattu.png" group-title="Tamil Local Channels",Grace Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://gracetvcgl.livebox.co.in/Gracetvhls/Gracetv.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Gsjk Tv" tvg-logo="https://play-lh.googleusercontent.com/voxNxrEdw97KcEue3gSRIqhzsr397ClbMutP4ZSb6wXHrUJzSex3NPKFH-iwh0leqA=w480-h960-rw" group-title="Tamil Local Channels",Gsjk Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-http://live.brightmeltech.in/gsjktv/gsjktv.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Gta Tamil" tvg-logo="https://tataprime.files.wordpress.com/2024/03/20240314_0357246360065588137514740.png" group-title="Tamil Local Channels",Gta Tamil
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 http://144.217.77.42:8888/gta_tamil/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Hai Tv" tvg-logo="https://www.ashokadigital.net/_next/image?url=https%3A%2F%2Flivetv.ashokadigital.net%2Fupload%2Flogo%2F1746888149_HAII%2520TV%2520LOGO%2520PNG.png&w=1080&q=75" group-title="Tamil Local Channels",Hai Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://play.applelive.in/haitv/haitv.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Harin Tv" tvg-logo="https://play-lh.googleusercontent.com/-iWhUlatkv3AL80Z6gNlG692UfuqdfAYBWcLQzzapbDs5NtceyHYSXx6mW-_Fc_7P3Sm=w512-h960-rw" group-title="Tamil Local Channels",Harin Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://ipcloud.live/harintv/harintvhd/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -742,9 +742,18 @@ https://heaventv.livebox.co.in/heaventvhls/live.m3u8|User-Agent=Mozilla/5.0 (Win
 #EXTINF:-1 tvg-name="Hitech Tv" tvg-logo="https://www.ashokadigital.net/_next/image?url=https%3A%2F%2Flivetv.ashokadigital.net%2Fupload%2Flogo%2F1746534068_HI%2520TECH.png&w=1080&q=75" group-title="Tamil Local Channels",Hitech Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://notvstream.in/hitechtv/hitechtv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Idhayam Tv" tvg-logo="http://phoenixcreations.online/ott/jayamott/uploads/1778983521_WhatsApp%20Image%202026-05-17%20at%207.34.56%20AM.jpeg" group-title="Tamil Local Channels",Idhayam Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+http://sanplayout.xyz/live2/idhayamtv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Imai Tv" tvg-logo="https://i.imgur.com/9tODclu.png" group-title="Tamil Local Channels",Imai Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://live20.bozztv.com/akamaissh101/ssh101/imaitv/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Irattaipaathai Tv" tvg-logo="" group-title="Tamil Local Channels",Irattaipaathai Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://account31.livebox.co.in/IRATTAIPAATHAITVhls/live.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Isai Tv" tvg-logo="https://sscloud7.in/app/sscloud7/assets/tvchannels/phoenixtv-tvchannelavathar-phoenixtv1721757570.PNG" group-title="Tamil Local Channels",Isai Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://server.sscloud7.in/isaihd/isaihd/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Islamic Channel" tvg-logo="https://play-lh.googleusercontent.com/O1pprcPKyDJ95KLGDKyVtcoLrSgAeX0-STgyaYAWYEwBAiReAhxhE2asi4HXP2cplqM" group-title="Tamil Local Channels",Islamic Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://play.applelive.in/islamicchannel/islamicchannel.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -769,12 +778,6 @@ https://view.rcserver.in/tmp_hls10/jayamtvkarur/index.m3u8|User-Agent=Mozilla/5.
 #EXTINF:-1 tvg-name="Jayam Tv Polur" tvg-logo="" group-title="Tamil Local Channels",Jayam Tv Polur
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://live.singamcloud.in/jayamtv/jayamki/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Jayam Tv Sivakasi" tvg-logo="https://phoenixcreations.online/ott/jayamott/uploads/1775654228_Jayam%20Tv%20Logo.png" group-title="Tamil Local Channels",Jayam Tv Sivakasi
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://jayamtv-ott.tamilstream.in/jayamtv/sivakasi/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Jayam Tv Trichy" tvg-logo="https://play-lh.googleusercontent.com/ubSsc9-EysszvQIAHy9iHpzL7qjEd3yQlBVDYrpaKS2qH1j9sZmmIsT0hOgZplYiuhDc2206kZn3TXZUOiOoHtY" group-title="Tamil Local Channels",Jayam Tv Trichy
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://live.onecloudlive.in/jmhd/jmtv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Jc Tv" tvg-logo="https://tamiltvchannels.com/img/tamil%20local/JC%20TV%20star%202-01.png" group-title="Tamil Local Channels",Jc Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://play.applelive.in/jctv/jctv.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -784,9 +787,6 @@ https://jaeppiyar.livebox.co.in/jeevaolitvhls/live.m3u8|User-Agent=Mozilla/5.0 (
 #EXTINF:-1 tvg-name="Jeevaneerodai Tv" tvg-logo="http://phoenixcreations.online/ott/joshuaott/uploads/1767870431_JN%20LOGO.png" group-title="Tamil Local Channels",Jeevaneerodai Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://web.applelive.in/jeevaneerodaitv/jeevaneerodaitv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Jeiyan Tv" tvg-logo="https://www.ashokadigital.net/_next/image?url=https%3A%2F%2Flivetv.ashokadigital.net%2Fupload%2Flogo%2F1741017559_Jeiyan%2520Tv%2520Trichy.png&w=1920&q=75" group-title="Tamil Local Channels",Jeiyan Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://stream.onecloudlive.in/jeyantv/jeyantv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Jenifer Tv" tvg-logo="https://i.ibb.co/wF0LnNcQ/1000144434.jpg" group-title="Tamil Local Channels",Jenifer Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://live1.sscloud7.in/live/jenifertv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -817,12 +817,6 @@ https://sscloud7.com/live/jithtv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 1
 #EXTINF:-1 tvg-name="Jj News Tamil" tvg-logo="https://www.ashokadigital.net/_next/image?url=https%3A%2F%2Flivetv.ashokadigital.net%2Fupload%2Flogo%2F1742060000_1000825080.jpg&w=1080&q=75" group-title="Tamil Local Channels",Jj News Tamil
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://hlsstream.olidigital.in/jjtvnewstamil/jjtvnewstamil/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Jos Tv" tvg-logo="https://play-lh.googleusercontent.com/GV3dGZVdT56cFJCewPwViXqAeAQioiOgdwgEaTx_e3On7wvrzPWh0ILIXD2JbDOnv6_CEKrwI3NRNmvWxmWB=w512-h960-rw" group-title="Tamil Local Channels",Jos Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-http://jostv.phoenixcreations.online/jostv/jostv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Jose Tv" tvg-logo="https://play-lh.googleusercontent.com/_V5dp42Hsk7U5NwrvilcuWyS3A6fBVZyoIwBFqFVoXvCI9Q3Km0APnP6rS_WYVg-mIU=w512-h960-rw" group-title="Tamil Local Channels",Jose Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-http://josetv.phoenixcreations.online/josetv/josetv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Joshua Praise Tv" tvg-logo="https://phoenixcreations.online/ott/joshuaott/uploads/1763130484_JP%20TV%20copy.jpg" group-title="Tamil Local Channels",Joshua Praise Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 http://joshuatv-live.phoenixcreations.online/joshuatv/live/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -850,6 +844,9 @@ http://198.144.149.206:8080/NOTV/KANCHIMEDIA/index.m3u8?token=GTR|User-Agent=Moz
 #EXTINF:-1 tvg-name="Kanchi Tv" tvg-logo="https://play-lh.googleusercontent.com/CgvOoJ4ewOfDSZi8OHbmkX6Ucxoqjt70abOuxNN1uPh3uvKnvuEhBOoZXjcCCRWOcq3J=w480-h960-rw" group-title="Tamil Local Channels",Kanchi Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://anywhere.pwisetthon.com/http://198.144.149.206:8080/NOTV/KANCHITV/index.m3u8?token=GTR|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Kanna Tv" tvg-logo="https://raw.githubusercontent.com/amazeyourself/tamil-local-iptv/refs/heads/main/logos/KannaTVNGL.png" group-title="Tamil Local Channels",Kanna Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://web.applelive.in/stream/kktv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Karthick Tv" tvg-logo="https://www.ashokadigital.net/_next/image?url=https%3A%2F%2Flivetv.ashokadigital.net%2Fupload%2Flogo%2F1739547181_WhatsApp_Image_2025-02-14_at_8.50.29_PM__2_-removebg-preview.png&w=1920&q=75" group-title="Tamil Local Channels",Karthick Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://ipcloud.live/karthick/karthicktvhd/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -877,9 +874,6 @@ https://rtmp.bmlive.net/kingtv/kingtv/stream.m3u8|User-Agent=Mozilla/5.0 (Window
 #EXTINF:-1 tvg-name="King Tv Alangulam" tvg-logo="https://sscloud7.in/app/sscloud7/assets/tvchannels/phoenixtv-tvchannelavathar-phoenixtv1721812585.PNG" group-title="Tamil Local Channels",King Tv Alangulam
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://server.sscloud7.in/kingtv/kingtv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="King Tv Ranipet" tvg-logo="https://vmfm.github.io/tamilvmtv/image/King TV Ranipet.png" group-title="Tamil Local Channels",King Tv Ranipet
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://ipcloud.live/kingtv/kingtv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Kings Tv" tvg-logo="https://play-lh.googleusercontent.com/cXclrtlhO6v3NvMl4rlHUY8daedag1Ugbdv8S5Fl5NiBSGDUzIk55Snrv0k94MNapkG9ffgLHFiNXx2qN56OYQ" group-title="Tamil Local Channels",Kings Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 http://kingstv.phoenixcreations.online/kingstv/kings/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -889,6 +883,12 @@ https://web.applelive.in/koodaltv/koodaltv/index.m3u8|User-Agent=Mozilla/5.0 (Wi
 #EXTINF:-1 tvg-name="Krish Tv" tvg-logo="" group-title="Tamil Local Channels",Krish Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://stream.onecloudlive.in/krishnatv/krishnatvhd/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Krn Tv" tvg-logo="" group-title="Tamil Local Channels",Krn Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://stream.onecloudlive.in/krntv/krntvhd/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Ksr Tv" tvg-logo="https://raw.githubusercontent.com/amazeyourself/tamil-local-iptv/refs/heads/main/logos/KSRTV.png" group-title="Tamil Local Channels",Ksr Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+http://ksrtv.stream.onecloudlive.in:8080/ksrtv/ksrtvhd/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Kumari Kathir Tv" tvg-logo="https://tamiltvchannels.com/img/tamil%20local/kumari%20kathir.png" group-title="Tamil Local Channels",Kumari Kathir Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://play.applelive.in/jjmax/jjmax.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -901,6 +901,9 @@ https://lifetv.livebox.co.in/lifetvhls/lifetv.m3u8|User-Agent=Mozilla/5.0 (Windo
 #EXTINF:-1 tvg-name="Lion Tv" tvg-logo="https://raw.githubusercontent.com/amazeyourself/tamil-local-iptv/refs/heads/main/logos/LionTV.png" group-title="Tamil Local Channels",Lion Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://stream.iplive.xyz/smmedia/liontv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Lourdes Tv" tvg-logo="https://api.nellaiiptv.com/public/uploads/channel/logos/1781266470.webp" group-title="Tamil Local Channels",Lourdes Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://srv2.nellaiiptv.com/live/pondicherry-lourdestv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Love Joy Tv" tvg-logo="" group-title="Tamil Local Channels",Love Joy Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://ipcloud.live/novamani/lovejoytv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -910,9 +913,6 @@ http://luckytv.stream.onecloudlive.in/luckytv/luckytvhd/index.m3u8|User-Agent=Mo
 #EXTINF:-1 tvg-name="Lucky Tv Tenkasi" tvg-logo="" group-title="Tamil Local Channels",Lucky Tv Tenkasi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://live.onecloudlive.in/luckytvtk/luckytv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="M Television" tvg-logo="https://www.ashokadigital.net/_next/image?url=https%3A%2F%2Flivetv.ashokadigital.net%2Fupload%2Flogo%2F1743837928_TELEVESION.png&w=1920&q=75" group-title="Tamil Local Channels",M Television
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://ipcloud.live/mtv/menhd/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="M Tv Tamil" tvg-logo="https://vmfm.github.io/tamilvmtv/image/m-tv.png" group-title="Tamil Local Channels",M Tv Tamil
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://anywhere.pwisetthon.com/https://stream.iplive.xyz/mtv/mtvhd/index.m3u8?token=zB3NfXUXshSpJ3|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -925,12 +925,21 @@ https://live.singamcloud.in/maatv/maatv/index.m3u8|User-Agent=Mozilla/5.0 (Windo
 #EXTINF:-1 tvg-name="Madura Tv" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1772719964_madhura%20tv.png" group-title="Tamil Local Channels",Madura Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://stream.onecloudlive.in/mm/maduratv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Madurai Arasi Tv" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1781584569_Madurai%20Arasi%20(2).png" group-title="Tamil Local Channels",Madurai Arasi Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://app.xstream.onecloudlive.in/maduraiarasi/livestream/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Mahimai Tv" tvg-logo="https://tamiltvchannels.com/img/devotional/Mahimai%20TV.png" group-title="Tamil Local Channels",Mahimai Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://ktismaservers.in:3161/live/mahimaitvlive.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Malar Tv Surandai" tvg-logo="https://play-lh.googleusercontent.com/VFvalPp4IMh7AVU4OOgF7-mnNhSkxnFB5LNnqa31Uds6EjB9Xk3YoMo1WrH9V13rkw_vPC49Dzh1JWnzzrVu" group-title="Tamil Local Channels",Malar Tv Surandai
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 http://malartv.sscloud7.in/malartv/malartv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Mallai Tv" tvg-logo="https://i.ibb.co/QvTHJWhy/1000136573.jpg" group-title="Tamil Local Channels",Mallai Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://rojatv.cloud/mallaitv/mallaitv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Manasu Tv" tvg-logo="https://yt3.googleusercontent.com/8uHgohnPFsCkvNbLU-Hlup98mWxNgIwUSaBAlEePFqbcQe5icPBneMmkhFmGHs45V5yq9ldm" group-title="Tamil Local Channels",Manasu Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://stream6.livebox.co.in/manasutvhls/live.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Mangalam Tv" tvg-logo="https://play-lh.googleusercontent.com/SGyfDbRPr5ySSLnPaRWovKGYTPhIZ0WdDxKgR5tiAURCGOVQDOWFNSNXZ3YtLIjZ9hq0_vqsyz4SpSmFO6Nj" group-title="Tamil Local Channels",Mangalam Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 http://mangalamtv.phoenixcreations.online/mangalamtv/mangalam/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -946,21 +955,21 @@ https://stream.onecloudlive.in/maruthitv/maruthitvhd/index.m3u8|User-Agent=Mozil
 #EXTINF:-1 tvg-name="Matha Tv" tvg-logo="https://play-lh.googleusercontent.com/g5zYMmLwiKGcah_KvelGEB2ot1VTbB3HrjZpR2hs0qDevPM6eosAhs1TxXVLkO55sU4=w512-h960-rw" group-title="Tamil Local Channels",Matha Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://live.mathatv.in/mathatv/mathatv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Mathi Tv" tvg-logo="https://www.ashokadigital.net/_next/image?url=https%3A%2F%2Flivetv.ashokadigital.net%2Fupload%2Flogo%2F1753716414_madhi%2520tv.png&w=1080&q=75" group-title="Tamil Local Channels",Mathi Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://notvstream.in/mathitv/mathitv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Mcn Tv" tvg-logo="https://vmfm.github.io/tamilvmtv/image/mcn-tv-1.png" group-title="Tamil Local Channels",Mcn Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://play.applelive.in/mcntv/mcntv.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Mdn Tv" tvg-logo="https://vmfm.github.io/tamilvmtv/image/MDN-tv-1 (2).png" group-title="Tamil Local Channels",Mdn Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://account18.livebox.co.in/IMAGESEQUENCEhls/live.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Me24 Tamil" tvg-logo="https://raw.githubusercontent.com/amazeyourself/tamil-local-iptv/refs/heads/main/logos/ME24Tamil.png" group-title="Tamil Local Channels",Me24 Tamil
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://stream.onecloudlive.in/orange/ME24TAMIL/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Media" tvg-logo="" group-title="Tamil Local Channels",Media
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://real-vk.proxy.nellaiiptv.com/SDMEDIA/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Mei Alai Tv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkifCQtA5Q9jffIS1MkOz0KEp00hQopIKM6g&s" group-title="Tamil Local Channels",Mei Alai Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://view.rcserver.in/tmp_hls21/meialai/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Meiveli Tv" tvg-logo="https://www.meiveli.tv/wp-content/uploads/2023/07/MEIVELI-TV-ENGLISH.png" group-title="Tamil Local Channels",Meiveli Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://meiveli.livebox.co.in/MEIVELIMAINhls/meivelimain.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Miyami Tv" tvg-logo="https://vmfm.github.io/tamilvmtv/image/miyamitv-1.png" group-title="Tamil Local Channels",Miyami Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://59ec5453559f0.streamlock.net/JennyLive/_definst_/JennyLive/media_9264.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -988,21 +997,18 @@ https://stream.iplive.xyz/faithtv/faithtv/index.m3u8|User-Agent=Mozilla/5.0 (Win
 #EXTINF:-1 tvg-name="My Jesus Tv" tvg-logo="http://phoenixcreations.online/ott/joshuaott/uploads/1762179777_AngelTV(3).png" group-title="Tamil Local Channels",My Jesus Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://5790d294af2dc.streamlock.net/myjesustv/myjesustv/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Namathu Sangamam Tv" tvg-logo="https://www.ashokadigital.net/_next/image?url=https%3A%2F%2Flivetv.ashokadigital.net%2Fupload%2Flogo%2F1747992529_namathu%2520%2520SANGAMAM%2520TV.png&w=1920&q=75" group-title="Tamil Local Channels",Namathu Sangamam Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-http://yours.7starcloud.com:1935/live/nmtv/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Namma Gobi Tv" tvg-logo="https://www.ashokadigital.net/_next/image?url=https%3A%2F%2Flivetv.ashokadigital.net%2Fupload%2Flogo%2F1751788665_png%2520logo.png&w=1920&q=75" group-title="Tamil Local Channels",Namma Gobi Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://cdn1.rojatv.cloud/nammagobi/tv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Nanjil Natham Tv" tvg-logo="https://tamiltvchannels.com/img/devotional/Nanjilnatham%20TV.png" group-title="Tamil Local Channels",Nanjil Natham Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://play.applelive.in/hls/nanjilnathamtv.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Naveen Tv" tvg-logo="https://api.nellaiiptv.com/public/uploads/channel/logos/1772874205.webp" group-title="Tamil Local Channels",Naveen Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://srv3.nellaiiptv.com/live/naveentv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Nellai Tv" tvg-logo="https://www.ashokadigital.net/_next/image?url=https%3A%2F%2Flivetv.ashokadigital.net%2Fupload%2Flogo%2F1753792693_WhatsApp_Image_2025-07-29_at_5.34.20_AM-removebg-preview.png&w=1920&q=75" group-title="Tamil Local Channels",Nellai Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://stream.onecloudlive.in/nellaitv/nellaitv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="News 80 Tamil" tvg-logo="https://play-lh.googleusercontent.com/vUleh6XgoF2Ouabo6ImWZFg1wZY0xiFZDgp8d2fl2wvx2gejgt7eavWhn9DxTVEtw4I" group-title="Tamil Local Channels",News 80 Tamil
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-http://198.144.149.206:8080/NOTV/NEWS80/index.m3u8?token=GTR|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Nijam Tv" tvg-logo="https://tamiltvchannels.com/img/devotional/Nijam%20TV.png" group-title="Tamil Local Channels",Nijam Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://nijamtv.indiamatrix.in/nijamtv/nijamtv.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -1048,12 +1054,12 @@ https://account21.livebox.co.in/oscartvhls/live.m3u8|User-Agent=Mozilla/5.0 (Win
 #EXTINF:-1 tvg-name="Params Tv" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1777263574_params%202.png" group-title="Tamil Local Channels",Params Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 http://shreeparams.7starcloud.com:1935/live/paramstv/live.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Pcn Channel" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1769084640_new%20pcn%20logo.psd%20-%20PNG%2000%20(2).png" group-title="Tamil Local Channels",Pcn Channel
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://pcntv.wmsdigital.in/hls/gtv/stream.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Pcn Tv" tvg-logo="https://i.ibb.co/vcfjYB9/PCN.png" group-title="Tamil Local Channels",Pcn Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://rtmp.bmlive.net/bms/pcn/stream.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Pdp Tv" tvg-logo="https://api.nellaiiptv.com/public/uploads/channel/logos/pdp_tv_1770711747.webp" group-title="Tamil Local Channels",Pdp Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://srv3.nellaiiptv.com/live/pdptv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Peniel Tv" tvg-logo="https://play-lh.googleusercontent.com/nGUr3mUAO4e7D2vhu9qgfQYUHSttDW_WoYXyqbQ3njxq0XILcNhkcHXXNt0LPv1FvrY" group-title="Tamil Local Channels",Peniel Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 http://indiamatrix.in/penieltv/penieltv.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -1066,9 +1072,6 @@ https://stream.onecloudlive.in/phoenixtv/phoenixtv/index.m3u8|User-Agent=Mozilla
 #EXTINF:-1 tvg-name="Pj Tv" tvg-logo="" group-title="Tamil Local Channels",Pj Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 http://198.144.149.206:8080/DINESH/PJTV/index.m3u8?token=YAAL|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Pn Tv" tvg-logo="https://api.nellaiiptv.com/public/uploads/channel/logos/1777320043.webp" group-title="Tamil Local Channels",Pn Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://stream.onecloudlive.in/pntv/pntv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Polimer Channel" tvg-logo="https://play-lh.googleusercontent.com/DiZsLeRIoky2i4qkkR36SF7R5MR_fwb0Hl41U3wAlVZsi1wKMBxbK3fzvln8YUQrmbkV=w512-h960-rw" group-title="Tamil Local Channels",Polimer Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 http://polimer.7starcloud.com:1935/polimer/live/live.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -1102,9 +1105,6 @@ https://live1.sscloud7.in/live/raghultv/index.m3u8|User-Agent=Mozilla/5.0 (Windo
 #EXTINF:-1 tvg-name="Rainbow Tv" tvg-logo="https://www.ashokadigital.net/_next/image?url=https%3A%2F%2Flivetv.ashokadigital.net%2Fupload%2Flogo%2F1731942805_RAINBOW%2520TV.png&w=1080&q=75" group-title="Tamil Local Channels",Rainbow Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://live.cloudvu.in/rainbowtv/ssdslive/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Rainbow Tv Gandarvakottai" tvg-logo="https://vmfm.github.io/tamilvmtv/image/rainbow-tv.jpg" group-title="Tamil Local Channels",Rainbow Tv Gandarvakottai
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://notvstream.in/rainbowtv/rainbowtv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Ramya Tv" tvg-logo="https://vmfm.github.io/tamilvmtv/image/ramya-tv.png" group-title="Tamil Local Channels",Ramya Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 http://live.brightmeltech.in/ramyatv/ramyatv.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -1114,6 +1114,12 @@ http://ratchagartv.phoenixcreations.online/ratchagartv/ratchagar/index.m3u8|User
 #EXTINF:-1 tvg-name="Ridsys Tv" tvg-logo="https://i.ibb.co/zTDC85jp/30052.png" group-title="Tamil Local Channels",Ridsys Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 http://ptuf.ridsys.in/riptv/live/RIDSYS_HD/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Right Tv" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1775293989_Logo.PNG" group-title="Tamil Local Channels",Right Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://stream.onecloudlive.in/righttv/live/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Rio Tv" tvg-logo="https://play-lh.googleusercontent.com/r8o_7nnHnNBGqWHnTSl98uPoTwsxVGCfFArM5OTIcGQUoaNuxORznc11pQjyTF8GMA0=w512-h960-rw" group-title="Tamil Local Channels",Rio Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+http://ipcloud.live/riotv/riotvhd/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Riya Tv" tvg-logo="https://www.ashokadigital.net/_next/image?url=https%3A%2F%2Flivetv.ashokadigital.net%2Fupload%2Flogo%2F1757780950_unnamed%2520(4).webp&w=1080&q=75" group-title="Tamil Local Channels",Riya Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://play.applelive.in/riyatv/riyatv.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -1153,12 +1159,12 @@ http://ptuf.ridsys.in/riptv/live/S_MEDIA/index.m3u8|User-Agent=Mozilla/5.0 (Wind
 #EXTINF:-1 tvg-name="S Tv" tvg-logo="https://raw.githubusercontent.com/amazeyourself/tamil-local-iptv/refs/heads/main/logos/STV.png" group-title="Tamil Local Channels",S Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://apis.avmediawork.in/tvhls/stv.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="S Tv Madurai" tvg-logo="https://api.nellaiiptv.com/public/uploads/channel/logos/1783178029.webp" group-title="Tamil Local Channels",S Tv Madurai
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://srv2.nellaiiptv.com/live/stv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Sabari Tv Aruppukottai" tvg-logo="https://raw.githubusercontent.com/amazeyourself/tamil-local-iptv/refs/heads/main/logos/SabariTVAruppukottai.png" group-title="Tamil Local Channels",Sabari Tv Aruppukottai
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://stream.onecloudlive.in/sabaritv/sabaritvhd/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Sai Tv" tvg-logo="https://www.ashokadigital.net/_next/image?url=https%3A%2F%2Flivetv.ashokadigital.net%2Fupload%2Flogo%2F1739599891_logo-removebg-preview.png&w=1080&q=75" group-title="Tamil Local Channels",Sai Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://stream.onecloudlive.in/saitvmdu/saitvmdu/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Sai Tv Madurai" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1739599891_logo-removebg-preview.png" group-title="Tamil Local Channels",Sai Tv Madurai
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 http://198.144.149.206:8080/NOTV/SAITVMD/index.m3u8?token=GTR|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -1171,18 +1177,15 @@ https://stream.onecloudlive.in/sailamtv/sailamtv/index.m3u8|User-Agent=Mozilla/5
 #EXTINF:-1 tvg-name="Sakthi Tv Nellai" tvg-logo="https://api.nellaiiptv.com/public/uploads/channel/logos/shakthi_tv_1770713832.webp" group-title="Tamil Local Channels",Sakthi Tv Nellai
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://stream.onecloudlive.in/sachintv/sakthitv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Salaam Tv" tvg-logo="" group-title="Tamil Local Channels",Salaam Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://stream.onecloudlive.in/salamtv/salamtvhd/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Salvation Tv" tvg-logo="https://salvationtv.in/wp-content/themes/twentythirteen/images/logo.png" group-title="Tamil Local Channels",Salvation Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://ktismaservers.in:3902/live/salvationtvlive.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Samugam Media" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_meX_j-Fg6LcfbwLBDI8X1BlC3q_nD1Io5wVWriMgWVJA" group-title="Tamil Local Channels",Samugam Media
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://ca.streamjo.com/live/samugam.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Sar Tv" tvg-logo="https://play-lh.googleusercontent.com/8TbFMm0Di6lQrbEjdpIPtqNu0OspSbbsuw5IdZrvgRf38apXNblCLUEJsIFQSWJGAnOW=w512-h960-rw" group-title="Tamil Local Channels",Sar Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 http://sartv2.phoenixcreations.online/sartv2/sartv2/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Sarvik Tv" tvg-logo="https://api.nellaiiptv.com/public/uploads/channel/logos/1777319611.webp" group-title="Tamil Local Channels",Sarvik Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://live3.onecloudlive.in/sachintv/sarvikhd/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Selfie Tv" tvg-logo="https://tamiltvchannels.com/img/tamil%20local/selfie%20tv.png" group-title="Tamil Local Channels",Selfie Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://play.applelive.in/selfeetv/selfeetv.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -1198,9 +1201,9 @@ https://play.applelive.in/shatv/shatv.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10
 #EXTINF:-1 tvg-name="Shakthi Channel" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1777567856_SALRHI%20TV%20LOGO%20PNG%20copy.png" group-title="Tamil Local Channels",Shakthi Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 http://cloudstream4k.com:1935/shakthihd/bsk/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Shalwin Tv" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1769047456_234234234234.png" group-title="Tamil Local Channels",Shalwin Tv
+#EXTINF:-1 tvg-name="Shalini Tv Tiruvannamalai" tvg-logo="https://www.ashokadigital.net/_next/image?url=https%3A%2F%2Flivetv.ashokadigital.net%2Fupload%2Flogo%2F1746462375_WhatsApp_Image_2025-05-05_at_8.18.04_PM-removebg-preview.png&w=1080&q=75" group-title="Tamil Local Channels",Shalini Tv Tiruvannamalai
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://live3.onecloudlive.in/shalwintv/shalwintv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://ipcloud.live/shalinitv/shalinitv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Shark Tv" tvg-logo="https://api.nellaiiptv.com/public/uploads/channel/logos/shark_tv_1770713207.webp" group-title="Tamil Local Channels",Shark Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://srv4.nellaiiptv.com/live/789456/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -1213,6 +1216,9 @@ https://iptvhls.inet.moe/hls/newchannel.m3u8|User-Agent=Mozilla/5.0 (Windows NT 
 #EXTINF:-1 tvg-name="Shri Sakthi Tv" tvg-logo="" group-title="Tamil Local Channels",Shri Sakthi Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://view.apserver.in/tmp_hls6/srisakthitv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Silver Sat Media" tvg-logo="https://raw.githubusercontent.com/amazeyourself/tamil-local-iptv/refs/heads/main/logos/SilverSatMedia.png" group-title="Tamil Local Channels",Silver Sat Media
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+http://sanplayout.xyz/live2/silversatmedia/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Singam Tv" tvg-logo="https://vmfm.github.io/tamilvmtv/image/singam_tv.png" group-title="Tamil Local Channels",Singam Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 http://brightmeltech.in/singamtv/singamtv.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -1225,9 +1231,6 @@ https://ipcloud.live/nellaitv/suriyatv/index.m3u8|User-Agent=Mozilla/5.0 (Window
 #EXTINF:-1 tvg-name="Sk Tv Karur" tvg-logo="https://raw.githubusercontent.com/amazeyourself/tamil-local-iptv/refs/heads/main/logos/SKTVKarur.png" group-title="Tamil Local Channels",Sk Tv Karur
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://view.rcserver.in/tmp_hls24/sktv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Sky Media" tvg-logo="https://play-lh.googleusercontent.com/M8aznVOZ1lyqU9dKy34x_WguhPLLieeLxkfM3yfoi4i1fszevAKRAA89anSqr_eWZ-Gq=w480-h960-rw" group-title="Tamil Local Channels",Sky Media
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-http://skymedia.phoenixcreations.online/skymedia/skymedia/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Sky Plus Tv" tvg-logo="https://play-lh.googleusercontent.com/ApkLVeNBOSyeOx-ciN8PXlqUkBhGg2TmufFq8aei1tu2k8i9SU5PYR5byRI9C42dT4I=w512-h960-rw" group-title="Tamil Local Channels",Sky Plus Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://ipcloud.live/skytv/skytv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -1243,6 +1246,9 @@ http://hdserver.7starcloud.com:1935/smart/tv/playlist.m3u8|User-Agent=Mozilla/5.
 #EXTINF:-1 tvg-name="Smcv Tv" tvg-logo="https://play-lh.googleusercontent.com/QHY-UJodq8HOSLN6waYq91yJMCsu1Cq5toOX6PRffCrE2A8sl-MOdifsRgmq-rl3eA=w512-h960-rw" group-title="Tamil Local Channels",Smcv Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://singamcloud.in/smcvtv/smcvtv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Sms Tv" tvg-logo="https://api.nellaiiptv.com/public/uploads/channel/logos/sms_tv_1770712766.webp" group-title="Tamil Local Channels",Sms Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://srv3.nellaiiptv.com/live/smstv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Solai Tv" tvg-logo="" group-title="Tamil Local Channels",Solai Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://ipcloud.live/solaitv/solaihd/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -1270,9 +1276,9 @@ https://annainew.livebox.co.in/srisaihls/live.m3u8|User-Agent=Mozilla/5.0 (Windo
 #EXTINF:-1 tvg-name="Sri Tv" tvg-logo="https://play-lh.googleusercontent.com/WVVmROs0-HduRDHoPjdyF-o4BWIHE5cVK8KC2uHzBeCskktLCZ9npcRLv9__UebaAhXrdY21xURmyrzyGJ4Ayg" group-title="Tamil Local Channels",Sri Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 http://sritv.phoenixcreations.online/sritv/sri/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Sri Velavan Tv" tvg-logo="https://vmfm.github.io/tamilvmtv/image/srivelavan-tv-1.png" group-title="Tamil Local Channels",Sri Velavan Tv
+#EXTINF:-1 tvg-name="Sri Varahi Tv" tvg-logo="" group-title="Tamil Local Channels",Sri Varahi Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://rtmp.applelive.in/srivelavantv/srivelavantv4k/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://real-vk.proxy.nellaiiptv.com/SRIVARAHITV/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Ss Tv" tvg-logo="https://raw.githubusercontent.com/amazeyourself/tamil-local-iptv/refs/heads/main/logos/SSTV2.png" group-title="Tamil Local Channels",Ss Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://sstv-ott.tamilstream.in/sstv/sstv/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -1294,6 +1300,9 @@ https://notvstream.in/subitv/subitv/index.m3u8|User-Agent=Mozilla/5.0 (Windows N
 #EXTINF:-1 tvg-name="Succes Tv Tamil" tvg-logo="https://vmfm.github.io/tamilvmtv/image/succes-tv-1.jpg" group-title="Tamil Local Channels",Succes Tv Tamil
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://stream.onecloudlive.in/successtv/successtvhd/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Sun Smart Tv" tvg-logo="https://api.nellaiiptv.com/public/uploads/channel/logos/1771310549.webp" group-title="Tamil Local Channels",Sun Smart Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://live3.onecloudlive.in/sunsmart/sunsmarttvhd/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Super Tv Dindigul" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1769694007_super%20tv%20logo%20png.png" group-title="Tamil Local Channels",Super Tv Dindigul
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 http://122.165.249.163:8080/hls/supertv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -1324,12 +1333,18 @@ https://ktismaservers.in:3220/hybrid/play.m3u8|User-Agent=Mozilla/5.0 (Windows N
 #EXTINF:-1 tvg-name="Tamil Vision International" tvg-logo="https://i.imgur.com/wJeELGj.png" group-title="Tamil Local Channels",Tamil Vision International
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://live.cmr24.fm/TVI/HD/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Telemax Tamil" tvg-logo="https://yt3.googleusercontent.com/JZFLrlPP5c1YGD1xxTkZ35B_uW9P_nUqeBLZPJqtOTlx0FDNnrmIHSzrzzOL6YMCJtniMPm3X_U" group-title="Tamil Local Channels",Telemax Tamil
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://real-vk.proxy.nellaiiptv.com/TELEMAX/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Thalaa Tv" tvg-logo="https://vmfm.github.io/tamilvmtv/image/thalaa-tv.png" group-title="Tamil Local Channels",Thalaa Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://streams2.sofast.tv/ptnr-yupptv/title-THALAA-TV-TAM_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2069c593-3c07-4d62-9d44-746be5c3a5d6/manifest.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Thangam Tv" tvg-logo="https://raw.githubusercontent.com/amazeyourself/tamil-local-iptv/refs/heads/main/logos/ThangamTV.png" group-title="Tamil Local Channels",Thangam Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://stream.onecloudlive.in/thangamtv/thangamtvhd/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Thendral Tv" tvg-logo="https://i.imgur.com/kQK80gB.png" group-title="Tamil Local Channels",Thendral Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://live.thendralcloud.in/thendraltv/d0dbe915091d400bd8ee7f27f0791303.sdp/chunks.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Thendral Tv Alangulam" tvg-logo="https://play-lh.googleusercontent.com/8I68-sq1hLelZj5NkltrWXL5tYHqSc3CzCRKxFH43LhIHkuCpv4m8hQUsmb6krDN=w512-h960-rw" group-title="Tamil Local Channels",Thendral Tv Alangulam
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 http://almthendraltv.phoenixcreations.online/almthendraltv/almthendraltv/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -1342,9 +1357,15 @@ https://srv4.nellaiiptv.com/live/tv/index.m3u8|User-Agent=Mozilla/5.0 (Windows N
 #EXTINF:-1 tvg-name="Thendral Tv Theni" tvg-logo="https://www.ashokadigital.net/_next/image?url=https%3A%2F%2Flivetv.ashokadigital.net%2Fupload%2Flogo%2F1735633652_IMG-20241231-WA0071.jpg&w=1920&q=75" group-title="Tamil Local Channels",Thendral Tv Theni
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://sscloud7.com/live/thendraltv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Thirai Tamil Tv" tvg-logo="https://raw.githubusercontent.com/amazeyourself/tamil-local-iptv/refs/heads/main/logos/ThiraiTamil.png" group-title="Tamil Local Channels",Thirai Tamil Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://tn.streamezy.in/hls/tthirai/live.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Thirai Tv" tvg-logo="https://vmfm.github.io/tamilvmtv/image/Thirai_TV.png" group-title="Tamil Local Channels",Thirai Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://view.apserver.in/tmp_hls2/thiraitv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Thirumalai Tv" tvg-logo="https://bmcloud.in/apptest/uploads/6944c6d5e64f1.png" group-title="Tamil Local Channels",Thirumalai Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://notvstream.in/thirumalaitv/thirumalaitv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Thoma Tv" tvg-logo="https://api.nellaiiptv.com/public/uploads/channel/logos/1771244991.webp" group-title="Tamil Local Channels",Thoma Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://stream.onecloudlive.in/thoma/thoma/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -1354,15 +1375,9 @@ https://live.olidigital.in/timetv/timetv/index.m3u8|User-Agent=Mozilla/5.0 (Wind
 #EXTINF:-1 tvg-name="Tiruppur Voice Tv" tvg-logo="https://play-lh.googleusercontent.com/7WwJlJcxOrQDjY2eOb1GNpLYQ_JF6fboUUmIb3b2R9tcdA_ewkTP94uCKXnbOw8mhaMw=w512-h960-rw" group-title="Tamil Local Channels",Tiruppur Voice Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://notvstream.in/tirupurvoicetv/tirupurvoicetv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Top Tv Thuraiyur" tvg-logo="https://play-lh.googleusercontent.com/casJz_N_Pc0VK3YJ9LaB4fHTp_YF4MWA93Jt0Lul6kMGK4-UzDJTEt6q-aoaWjGYRA=w512-h960-rw" group-title="Tamil Local Channels",Top Tv Thuraiyur
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://stream.onecloudlive.in/toptv/toptvhd/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Ttn Tv" tvg-logo="https://i.ibb.co/shRMXxh/Ttn250x250.jpg" group-title="Tamil Local Channels",Ttn Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://web.applelive.in/stream/ttntv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Twoc Tv" tvg-logo="https://play-lh.googleusercontent.com/XYKsBBKAjwJKGTBBGlvTvlah5o2kmTvO0P8MSxC5b4jb1El08QJY_9FQyoW5Novupd4" group-title="Tamil Local Channels",Twoc Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://rtmp.applelive.in/twoctv/twoctv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Udhayam Tv" tvg-logo="https://vmfm.github.io/tamilvmtv/image/Udhayam tv.jpg" group-title="Tamil Local Channels",Udhayam Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://view.rcserver.in/tmp_hls13/udhayamhd/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -1372,15 +1387,12 @@ https://cable92tataplay.akamaized.net/live/utv/index.m3u8|User-Agent=Mozilla/5.0
 #EXTINF:-1 tvg-name="Uthamiyae Tv" tvg-logo="https://play-lh.googleusercontent.com/hxq2te7rRx53IvcJ92HIvdp5A1iwbFkeHhZxgKBIaKlXv0oq_Zfm82_7F450l6oSFQ" group-title="Tamil Local Channels",Uthamiyae Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://kali.vdopanel.com:3169/stream/play.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Utv Coimbatore" tvg-logo="https://raw.githubusercontent.com/amazeyourself/tamil-local-iptv/refs/heads/main/logos/UTVKovai.png" group-title="Tamil Local Channels",Utv Coimbatore
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+http://cdn.utvtamil.in/utvkovai/utv/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Utv Mayuram" tvg-logo="https://play-lh.googleusercontent.com/AMEhNNYAfAv0qg9W-UTBnETKyOG3biXyt5v7RmEFuX79HvWtM7VhO-WoDmBYPXajkpQ=w512-h960-rw" group-title="Tamil Local Channels",Utv Mayuram
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://notvstream.in/utv/utv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="V Tamil" tvg-logo="https://raw.githubusercontent.com/amazeyourself/tamil-local-iptv/refs/heads/main/logos/VTamil.png" group-title="Tamil Local Channels",V Tamil
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://hlsstream.olidigital.in/vtv/vtv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="V Tv" tvg-logo="https://play-lh.googleusercontent.com/YUc9M2Gii20Jy5a-dpmR6958-2c1wOMYyO0Jddy9nDqyIp0KdvF8s17sLdzD4ECg4Ws=w480-h960-rw" group-title="Tamil Local Channels",V Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://live.applelive.in/vtv/vtv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Vac Tv" tvg-logo="" group-title="Tamil Local Channels",Vac Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://play.applelive.in/shammahtv/shammahtv.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -1411,9 +1423,6 @@ http://vetritv.phoenixcreations.online/vetritv/vetritv/playlist.m3u8|User-Agent=
 #EXTINF:-1 tvg-name="Vezhamugam Tv" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1777284662_New%20Ai%20Logp%20copy.png" group-title="Tamil Local Channels",Vezhamugam Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 http://live.mintv.in/vezhamugam/live/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Vidiyal Tv" tvg-logo="https://www.ashokadigital.net/_next/image?url=https%3A%2F%2Flivetv.ashokadigital.net%2Fupload%2Flogo%2F1743757301_IMG-20250404-WA0100.jpg&w=1920&q=75" group-title="Tamil Local Channels",Vidiyal Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://account11.livebox.co.in/vidyaltvhls/live.m3u8?psk=stream|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Vimal Tv" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1782983392_ashoka-digital-560x315.gif" group-title="Tamil Local Channels",Vimal Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://stream.onecloudlive.in/karthick/vimaltv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -1426,15 +1435,15 @@ http://server.mindspell.in/live/vinayagatv/index.m3u8|User-Agent=Mozilla/5.0 (Wi
 #EXTINF:-1 tvg-name="Vinoth Tv" tvg-logo="https://raw.githubusercontent.com/amazeyourself/tamil-local-iptv/refs/heads/main/logos/VinothTV.png" group-title="Tamil Local Channels",Vinoth Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://server.sscloud7.in/live/vinothtv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Vip Tv" tvg-logo="https://raw.githubusercontent.com/amazeyourself/tamil-local-iptv/refs/heads/main/logos/VIPTV.png" group-title="Tamil Local Channels",Vip Tv
+#EXTINF:-1 tvg-name="Vip Tv Virudhunagar" tvg-logo="" group-title="Tamil Local Channels",Vip Tv Virudhunagar
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-https://ipcloud.live/vip/viptv/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://srv3.nellaiiptv.com/live/whistletv1/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Visaka Tv" tvg-logo="https://www.ashokadigital.net/_next/image?url=https%3A%2F%2Flivetv.ashokadigital.net%2Fupload%2Flogo%2F1748146464_TV%2520(1)%2520(1).png&w=1920&q=75" group-title="Tamil Local Channels",Visaka Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 http://visaka.7starcloud.com:1935/live/visakatv/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Vtv Trichy" tvg-logo="https://play-lh.googleusercontent.com/QfZqN2OEgxOq65ndB6E8xfypQYbPusJ_IG9YDw5Op-uG89VswRm_TE7EJ3C44KiiBMU" group-title="Tamil Local Channels",Vtv Trichy
+#EXTINF:-1 tvg-name="Vishil Tv 2" tvg-logo="https://sscloud7.in/app/sscloud7/assets/tvchannels/phoenixtv-tvchannelavathar-phoenixtv1744985304.jpeg" group-title="Tamil Local Channels",Vishil Tv 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-http://198.144.149.206:8080/NOTV/VTV1/index.m3u8?token=GTR|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+https://srv2.nellaiiptv.com/live/whistletv2/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="We Baduga Tv" tvg-logo="https://i.ibb.co/msBGprc/1000145103.jpg" group-title="Tamil Local Channels",We Baduga Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://rtmp.bmlive.net/webaduga/webaduga/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -1450,9 +1459,6 @@ https://stream.onecloudlive.in/yatra/yatratv/index.m3u8|User-Agent=Mozilla/5.0 (
 #EXTINF:-1 tvg-name="Yet Tv" tvg-logo="https://vmfm.github.io/tamilvmtv/image/yet-tv-1.jpg" group-title="Tamil Local Channels",Yet Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://live.yettelevision.com:5443/LiveApp/streams/yettv.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Yours Tv" tvg-logo="https://www.ashokadigital.net/_next/image?url=https%3A%2F%2Flivetv.ashokadigital.net%2Fupload%2Flogo%2F1748079240_YOURS%2520TV.png&w=1920&q=75" group-title="Tamil Local Channels",Yours Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
-http://yours.7starcloud.com:1935/live/yourstv/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 
 # --- Tamil IPTV Channels (15 channels) ---
 #EXTINF:-1 tvg-name="Chithiram Tv" tvg-logo="http://tv.tamilwebcast.com/logo-proxy/aHR0cHM6Ly90di5jbG91ZGNkbi5vbmxpbmUvaW1hZ2VzL2NoYW5uZWxzL0NoaXRoaXJhbVR2LnBuZw" group-title="Tamil IPTV Channels",Chithiram Tv

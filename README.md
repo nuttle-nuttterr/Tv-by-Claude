@@ -5,8 +5,8 @@
 ✓ **Fully deduplicated** (1 working link per channel)  
 ✓ **Concurrent validation** (25 parallel tests)
 
-**Total live channels:** 500  
-**Last updated:** 2026-07-07 09:23:57 UTC
+**Total live channels:** 506  
+**Last updated:** 2026-07-07 14:07:13 UTC
 
 ## Playlist URL
 ```
@@ -25,7 +25,7 @@ https://raw.githubusercontent.com/nuttle-nuttterr/Tv-by-Claude/main/master_playl
 | Tamil Spiritual & Devotional | 7 |
 | Tamil Kids | 3 |
 | Sports | 9 |
-| English GEC | 2 |
+| English GEC | 3 |
 | English Movies | 8 |
 | English National News | 7 |
 | English International News | 3 |
@@ -34,5 +34,5 @@ https://raw.githubusercontent.com/nuttle-nuttterr/Tv-by-Claude/main/master_playl
 | English Lifestyle & Travel | 2 |
 | English Kids | 3 |
 | Local Channels | 7 |
-| Tamil Local Channels | 398 |
+| Tamil Local Channels | 403 |
 | Tamil IPTV Channels | 15 |

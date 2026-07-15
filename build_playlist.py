@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 """
-Tamil & English IPTV Playlist Builder (Fixed & Optimized)
+Tamil & English IPTV Playlist Builder (v2.0 - ENHANCED)
 ---------------------------------------------------------
 ✓ Smart deduplication (same channel = same working link)
-✓ Deep stream validation (no dead/broken/fake links)
+✓ Deep stream validation (detects fake/dead/broken links)
+✓ M3U8 playlist verification (checks for actual segments)
+✓ Magic byte detection (validates media files)
 ✓ Category matching (longest-keyword-first, no mismatches)
-✓ Concurrent validation with rate limiting
+✓ Concurrent validation with rate limiting & retries
 ✓ Duplicate URL detection (same link, different sources)
 ✓ Fallback URL selection (picks best working link)
-✓ Proper error handling & logging
+✓ Comprehensive error handling & detailed logging
 
-Run: python build_playlist.py
+Run: python build_playlist_v2.py
 Output: master_playlist.m3u, README.md, validation_log.txt
 """
 
@@ -24,6 +26,7 @@ import hashlib
 from typing import Dict, List, Tuple, Optional, Set
 from urllib.parse import urlparse
 import threading
+import sys
 
 # ==========================================================================
 # 1. CUSTOM HARDCODED CHANNELS
@@ -241,7 +244,28 @@ FLAT_RULES.sort(reverse=True, key=lambda x: x[0])
 TAMIL_LOCAL_HINTS = ["tv", "media", "vision", "tamil", "network", "cable", "channel"]
 
 # ==========================================================================
-# 5. UTILITY FUNCTIONS
+# 5. STREAM VALIDATION CONFIGURATION
+# ==========================================================================
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "Accept": "*/*",
+}
+
+# Media file magic bytes (signatures)
+MEDIA_SIGNATURES = {
+    b'\x00\x00\x00\x20\x66\x74\x79\x70': 'MP4',
+    b'\xff\xfb': 'MP3',
+    b'\xff\xfa': 'MP3',
+    b'\x47': 'MPEG-TS',
+    b'\x49\x44\x33': 'ID3',
+}
+
+VALIDATION_CACHE = {}
+CACHE_LOCK = threading.Lock()
+
+# ==========================================================================
+# 6. UTILITY FUNCTIONS
 # ==========================================================================
 
 def is_blocked(name: str) -> bool:
@@ -272,7 +296,7 @@ def get_core_key(name: str) -> str:
 def normalize_url(url: str) -> str:
     """Normalize URL for duplicate detection."""
     url = url.strip().lower()
-    url = re.sub(r'\?.*', '', url)  # Remove query params
+    url = re.sub(r'\?.*', '', url)
     url = url.rstrip('/')
     return url
 
@@ -311,23 +335,55 @@ def parse_m3u(content: str):
             yield current_name, current_logo, url, current_cat
             current_name, current_cat = None, None
 
+
 # ==========================================================================
-# 6. STREAM VALIDATION (Robust with caching)
+# 7. ADVANCED STREAM VALIDATION
 # ==========================================================================
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                  "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-    "Accept": "*/*",
-}
+def is_valid_m3u8_content(content: str) -> bool:
+    """Deep validation of M3U8 playlist content."""
+    lines = content.lower().split('\n')
+    
+    # Must have M3U8 header in first few lines
+    has_header = any('#extm3u' in line for line in lines[:10])
+    if not has_header:
+        return False
+    
+    # Count actual media references
+    segment_count = 0
+    for line in lines:
+        line = line.strip()
+        # Check for stream info
+        if '#extinf:' in line or '#ext-x-stream-inf' in line:
+            segment_count += 1
+        # Check for file references
+        elif line.endswith('.ts') or line.endswith('.m3u8') or line.endswith('.mp4'):
+            segment_count += 1
+        # Check for URL references
+        elif line.startswith('http'):
+            segment_count += 1
+    
+    # Must have at least one segment
+    return segment_count >= 1
 
-ALIVE_EVEN_IF_BLOCKED = {403, 401, 451, 429}
-VALIDATION_CACHE = {}
-CACHE_LOCK = threading.Lock()
+
+def check_media_signature(chunk: bytes) -> bool:
+    """Check if bytes contain valid media file signatures."""
+    if len(chunk) < 4:
+        return False
+    
+    for signature in MEDIA_SIGNATURES.keys():
+        if chunk.startswith(signature):
+            return True
+    
+    return False
 
 
-def stream_is_alive(url: str, timeout=(4.0, 6.0)) -> bool:
-    """Check if stream URL is alive with intelligent validation."""
+def stream_is_alive(url: str, timeout=(4.0, 6.0), retries=2) -> bool:
+    """
+    Enhanced stream validation with deep content verification.
+    Tests: HTTP status, content type, media signatures, M3U8 validity.
+    """
     url_norm = normalize_url(url)
     
     # Check cache
@@ -336,61 +392,133 @@ def stream_is_alive(url: str, timeout=(4.0, 6.0)) -> bool:
             return VALIDATION_CACHE[url_norm]
     
     result = False
-    try:
-        r = requests.get(
-            url,
-            headers=HEADERS,
-            timeout=timeout,
-            stream=True,
-            allow_redirects=True,
-            verify=True
-        )
-        
-        # Check status code
-        if r.status_code in ALIVE_EVEN_IF_BLOCKED:
-            result = True
-        elif r.status_code not in (200, 206, 302, 301):
-            result = False
-        else:
-            # Check content type
+    
+    for attempt in range(retries):
+        try:
+            # Initial HEAD request for quick validation
+            try:
+                head = requests.head(
+                    url,
+                    headers=HEADERS,
+                    timeout=(2.0, 3.0),
+                    allow_redirects=True,
+                    verify=False
+                )
+                
+                # Reject all 4xx and 5xx errors
+                if head.status_code >= 400:
+                    continue
+                
+                # Reject HTML/JSON content types
+                ctype_head = head.headers.get("Content-Type", "").lower()
+                if "text/html" in ctype_head or "application/json" in ctype_head:
+                    continue
+                
+            except:
+                pass  # Continue to full GET validation
+            
+            # Full GET request with content validation
+            r = requests.get(
+                url,
+                headers=HEADERS,
+                timeout=timeout,
+                stream=True,
+                allow_redirects=True,
+                verify=False
+            )
+            
+            # Reject error status codes
+            if r.status_code >= 400:
+                if attempt < retries - 1:
+                    time.sleep(0.3)
+                continue
+            
+            # Accept specific success codes
+            if r.status_code not in (200, 206, 301, 302):
+                if attempt < retries - 1:
+                    time.sleep(0.3)
+                continue
+            
             ctype = r.headers.get("Content-Type", "").lower()
             
-            # Reject HTML/JSON responses (fake content)
-            if "text/html" in ctype or "application/json" in ctype:
-                result = False
-            else:
-                # Read and validate stream header
-                try:
-                    chunk = r.raw.read(2000)
-                    if not chunk:
-                        result = False
+            # Reject HTML/JSON responses
+            if "text/html" in ctype or "application/json" in ctype or "text/plain" in ctype:
+                if attempt < retries - 1:
+                    time.sleep(0.3)
+                continue
+            
+            # Read content for validation
+            try:
+                chunk = r.raw.read(16384)  # Read 16KB for better validation
+                
+                if not chunk:
+                    if attempt < retries - 1:
+                        time.sleep(0.3)
+                    continue
+                
+                text = chunk.decode("utf-8", errors="ignore").lower()
+                
+                # Reject HTML/JavaScript
+                if "<html" in text or "<!doctype" in text or "<body" in text or "<script" in text:
+                    if attempt < retries - 1:
+                        time.sleep(0.3)
+                    continue
+                
+                # Reject JSON
+                if text.strip().startswith("{") or text.strip().startswith("["):
+                    if attempt < retries - 1:
+                        time.sleep(0.3)
+                    continue
+                
+                # Validate M3U8 playlists
+                if "#extm3u" in text:
+                    if is_valid_m3u8_content(text):
+                        result = True
+                        break
                     else:
-                        text = chunk.decode("utf-8", errors="ignore").lower()
-                        
-                        # Reject HTML/JSON content
-                        if "<html" in text or "<!doctype" in text or "<body" in text:
-                            result = False
-                        elif text.startswith("{") or text.startswith("["):
-                            result = False
-                        else:
-                            # Check for valid media
-                            is_media = any(
-                                v in ctype for v in [
-                                    "video/", "audio/", "mpegurl", 
-                                    "octet-stream", "mp2t", "application/x-mpegURL"
-                                ]
-                            )
-                            is_m3u8 = "#extm3u" in text or "#ext-x" in text
-                            result = is_media or is_m3u8
-                except:
-                    result = False
-    
-    except requests.Timeout:
-        result = False
-    except requests.ConnectionError:
-        result = False
-    except Exception as e:
-        result = False
+                        if attempt < retries - 1:
+                            time.sleep(0.3)
+                        continue
+                
+                # Validate direct media streams
+                is_media_type = any(
+                    v in ctype for v in [
+                        "video/", "audio/", "mpegurl", 
+                        "octet-stream", "mp2t", "application/x-mpegurl"
+                    ]
+                )
+                
+                has_media_sig = check_media_signature(chunk)
+                
+                if is_media_type or has_media_sig:
+                    result = True
+                    break
+                else:
+                    if attempt < retries - 1:
+                        time.sleep(0.3)
+                    continue
+            
+            except:
+                if attempt < retries - 1:
+                    time.sleep(0.3)
+                continue
+        
+        except requests.Timeout:
+            if attempt < retries - 1:
+                time.sleep(0.3)
+            continue
+        except requests.ConnectionError:
+            if attempt < retries - 1:
+                time.sleep(0.3)
+            continue
+        except requests.RequestException:
+            if attempt < retries - 1:
+                time.sleep(0.3)
+            continue
+        except Exception:
+            if attempt < retries - 1:
+                time.sleep(0.3)
+            continue
     
     # Cache result
     with CACHE_LOCK:
@@ -400,33 +528,47 @@ def stream_is_alive(url: str, timeout=(4.0, 6.0)) -> bool:
 
 
 # ==========================================================================
-# 7. MAIN BUILD
+# 8. CHANNEL BUILDER CLASS
 # ==========================================================================
 
 class ChannelBuilder:
+    """Build and manage IPTV channel list with deduplication and validation."""
+    
     def __init__(self):
         self.grouped = {}  # core_key -> {category, logo, urls: [], display}
-        self.url_hashes = set()  # Track URL hashes to avoid duplicates
-        self.seen_urls = set()  # Track exact URLs
+        self.url_hashes = set()
+        self.seen_urls = set()
         self.validation_log = []
+        self.stats = {
+            "added": 0,
+            "duplicates": 0,
+            "invalid_urls": 0,
+            "validated": 0,
+            "failed": 0,
+        }
         self.lock = threading.Lock()
     
     def add_channel(self, raw_name: str, logo: str, url: str, category: str) -> bool:
-        """Add channel with duplicate detection."""
+        """Add channel with duplicate detection and validation."""
         url = url.strip()
         
         # Validate URL format
         if not url.startswith(("http://", "https://")):
+            with self.lock:
+                self.stats["invalid_urls"] += 1
             return False
         
         # Duplicate URL check (exact)
         if url in self.seen_urls:
+            with self.lock:
+                self.stats["duplicates"] += 1
             return False
         
         # URL hash duplicate check (normalized)
         url_hash = get_url_hash(url)
         with self.lock:
             if url_hash in self.url_hashes:
+                self.stats["duplicates"] += 1
                 return False
             
             self.seen_urls.add(url)
@@ -446,54 +588,68 @@ class ChannelBuilder:
             self.grouped[key]["urls"].append(url)
             if not self.grouped[key]["logo"] and logo:
                 self.grouped[key]["logo"] = logo
+            
+            self.stats["added"] += 1
         
         return True
     
     def validate_channel(self, item) -> Optional[Tuple[str, str, str, str]]:
-        """Validate a channel group and return best working link."""
+        """Validate channel and return best working link with detailed logging."""
         proper_name, data = item
         category = data["category"]
         logo = data["logo"]
         
         # Try each URL in order
-        for url in data["urls"]:
-            if stream_is_alive(url):
+        for idx, url in enumerate(data["urls"], 1):
+            is_alive = stream_is_alive(url, retries=2)
+            
+            if is_alive:
+                with self.lock:
+                    self.stats["validated"] += 1
                 return (category, proper_name, logo, url)
         
+        with self.lock:
+            self.stats["failed"] += 1
         return None
 
 
+# ==========================================================================
+# 9. MAIN BUILD FUNCTION
+# ==========================================================================
+
 def main():
-    print("\n" + "="*70)
-    print("  TAMIL & ENGLISH IPTV PLAYLIST BUILDER (FIXED)")
-    print("="*70 + "\n")
+    """Main execution function."""
+    print("\n" + "="*80)
+    print("  TAMIL & ENGLISH IPTV PLAYLIST BUILDER v2.0 (ENHANCED VALIDATION)")
+    print("="*80 + "\n")
     
     builder = ChannelBuilder()
     
     # ---- 1. Load custom channels ----
     print("[1/4] Loading custom channels...")
-    count_custom = 0
     for name, logo, url, group_title in parse_m3u(USER_CUSTOM_CHANNELS):
         if is_blocked(name):
             continue
         cat = group_title if group_title in CATEGORY_ORDER else "Tamil IPTV Channels"
-        if builder.add_channel(name, logo, url, cat):
-            count_custom += 1
-    print(f"      ✓ {count_custom} custom channels loaded\n")
+        builder.add_channel(name, logo, url, cat)
+    
+    print(f"      ✓ {builder.stats['added']} custom channels loaded\n")
     
     # ---- 2. Fetch and parse remote sources ----
     print("[2/4] Fetching remote sources...")
-    total_remote = 0
     for src in SOURCES:
-        print(f"      → {src.split('/')[-1]}", end=" ... ", flush=True)
+        source_name = src.split('/')[-1]
+        print(f"      → {source_name:<40}", end=" ... ", flush=True)
+        
         try:
             resp = requests.get(src, timeout=15)
             resp.raise_for_status()
         except Exception as e:
-            print(f"SKIP (fetch failed)")
+            print(f"SKIP (fetch failed: {str(e)[:25]})")
             continue
         
-        n_added = 0
+        pre_count = builder.stats['added']
+        
         for name, logo, url, _ in parse_m3u(resp.text):
             if is_blocked(name):
                 continue
@@ -510,22 +666,23 @@ def main():
                 else:
                     continue
             
-            if builder.add_channel(proper_name or name, logo, url, cat):
-                n_added += 1
+            builder.add_channel(proper_name or name, logo, url, cat)
         
-        print(f"{n_added} channels")
-        total_remote += n_added
+        added = builder.stats['added'] - pre_count
+        print(f"{added:3d} channels ({builder.stats['duplicates']} duplicates)")
     
-    print(f"\n      ✓ {total_remote} remote channels collected")
-    print(f"      ✓ Total unique groups: {len(builder.grouped)}\n")
+    print(f"\n      ✓ Total unique groups: {len(builder.grouped)}")
+    print(f"      ✓ Duplicates removed: {builder.stats['duplicates']}")
+    print(f"      ✓ Invalid URLs: {builder.stats['invalid_urls']}\n")
     
-    # ---- 3. Validate streams (concurrent) ----
-    print("[3/4] Validating streams (concurrent)...")
+    # ---- 3. Validate streams (concurrent with detailed progress) ----
+    print("[3/4] Validating streams (concurrent, 25 workers)...")
     final_channels = {cat: [] for cat in CATEGORY_ORDER}
-    total_valid = 0
     
     items = [(v["display"], v) for v in builder.grouped.values()]
     print(f"      Testing {len(items)} channel groups...\n")
+    
+    start_time = time.time()
     
     with concurrent.futures.ThreadPoolExecutor(max_workers=25) as executor:
         futures = {
@@ -542,14 +699,23 @@ def main():
                     if cat not in final_channels:
                         final_channels[cat] = []
                     final_channels[cat].append((proper_name, logo, url))
-                    total_valid += 1
-                    print(f"      [{i:3d}/{len(items)}] ✓ {proper_name:<40} [{cat}]")
+                    status = "✓ LIVE"
+                    color = "\033[92m"  # Green
                 else:
-                    print(f"      [{i:3d}/{len(items)}] ✗ {channel_name:<40} [NO LIVE LINKS]")
+                    status = "✗ DEAD"
+                    color = "\033[91m"  # Red
+                
+                print(f"      [{i:3d}/{len(items)}] {color}{status}\033[0m {channel_name:<45}")
+            
             except Exception as e:
-                print(f"      [{i:3d}/{len(items)}] ✗ {channel_name:<40} [ERROR: {str(e)[:30]}]")
+                print(f"      [{i:3d}/{len(items)}] \033[91m✗ ERROR\033[0m {channel_name:<40} ({str(e)[:20]})")
     
-    print(f"\n      ✓ {total_valid} channels validated & live\n")
+    elapsed = time.time() - start_time
+    total_valid = builder.stats['validated']
+    
+    print(f"\n      ✓ Validation complete in {elapsed:.1f}s")
+    print(f"      ✓ {total_valid} channels live & working")
+    print(f"      ✗ {builder.stats['failed']} channels dead/broken\n")
     
     # ---- 4. Write outputs ----
     print("[4/4] Writing outputs...")
@@ -557,8 +723,9 @@ def main():
     # Write playlist
     with open("master_playlist.m3u", "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
-        f.write("#PLAYLIST:Fixed & Deduplicated Tamil/English IPTV Playlist\n")
-        f.write(f"#GENERATED:{datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}\n\n")
+        f.write("#PLAYLIST:Fixed & Deduplicated Tamil/English IPTV Playlist (v2.0)\n")
+        f.write(f"#GENERATED:{datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}\n")
+        f.write(f"#TOTAL-CHANNELS:{total_valid}\n\n")
         
         for cat in CATEGORY_ORDER:
             chans = final_channels.get(cat, [])
@@ -574,22 +741,25 @@ def main():
                     f'group-title="{cat}",{name}\n'
                 )
                 f.write(f"#EXTVLCOPT:http-user-agent={HEADERS['User-Agent']}\n")
-                f.write(f"{url}|User-Agent={HEADERS['User-Agent']}\n")
+                f.write(f"{url}\n")
     
     print(f"      ✓ master_playlist.m3u ({total_valid} channels)")
     
     # Write README
     timestamp = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
     with open("README.md", "w", encoding="utf-8") as f:
-        f.write("# Tamil & English IPTV Playlist\n\n")
-        f.write(
-            "✓ **Auto-validated** (dead links removed)  \n"
-            "✓ **Correctly categorized** (longest-keyword matching)  \n"
-            "✓ **Fully deduplicated** (1 working link per channel)  \n"
-            "✓ **Concurrent validation** (25 parallel tests)\n\n"
-        )
+        f.write("# Tamil & English IPTV Playlist (v2.0)\n\n")
+        f.write("**Enhanced Validation Features:**\n")
+        f.write("✓ Auto-validated (detects dead/fake/broken links)  \n")
+        f.write("✓ Deep stream testing (magic byte verification)  \n")
+        f.write("✓ M3U8 playlist validation (segment verification)  \n")
+        f.write("✓ Correctly categorized (longest-keyword matching)  \n")
+        f.write("✓ Fully deduplicated (1 working link per channel)  \n")
+        f.write("✓ Concurrent validation (25 parallel workers)  \n")
+        f.write("✓ Retry logic (2 attempts per stream)  \n\n")
         f.write(f"**Total live channels:** {total_valid}  \n")
-        f.write(f"**Last updated:** {timestamp}\n\n")
+        f.write(f"**Last updated:** {timestamp}  \n")
+        f.write(f"**Validation time:** {elapsed:.1f}s\n\n")
         f.write("## Playlist URL\n```\n")
         f.write("https://raw.githubusercontent.com/nuttle-nuttterr/Tv-by-Claude/main/master_playlist.m3u\n")
         f.write("```\n\n## Channel Breakdown\n")
@@ -603,25 +773,40 @@ def main():
     
     # Write validation log
     with open("validation_log.txt", "w", encoding="utf-8") as f:
-        f.write("IPTV Playlist Validation Report\n")
-        f.write("="*70 + "\n\n")
-        f.write(f"Generated: {timestamp}\n\n")
-        f.write(f"Total channels found: {len(builder.grouped)}\n")
-        f.write(f"Total channels validated: {total_valid}\n")
-        f.write(f"Dead/broken channels: {len(builder.grouped) - total_valid}\n")
-        f.write(f"Duplicate URLs removed: {len(builder.seen_urls) - total_valid}\n\n")
-        f.write("Category breakdown:\n")
+        f.write("IPTV Playlist Validation Report (v2.0)\n")
+        f.write("="*80 + "\n\n")
+        f.write(f"Generated: {timestamp}\n")
+        f.write(f"Validation Time: {elapsed:.1f} seconds\n\n")
+        f.write("STATISTICS\n")
+        f.write("-"*80 + "\n")
+        f.write(f"Total channels collected:    {len(builder.grouped)}\n")
+        f.write(f"Total channels validated:    {builder.stats['validated']}\n")
+        f.write(f"Dead/broken channels:        {builder.stats['failed']}\n")
+        f.write(f"Duplicate URLs removed:      {builder.stats['duplicates']}\n")
+        f.write(f"Invalid URLs rejected:       {builder.stats['invalid_urls']}\n\n")
+        f.write("CATEGORY BREAKDOWN\n")
+        f.write("-"*80 + "\n")
         for cat in CATEGORY_ORDER:
             n = len(final_channels.get(cat, []))
             if n > 0:
-                f.write(f"  {cat}: {n}\n")
+                f.write(f"{cat:<40} {n:3d} channels\n")
     
     print(f"      ✓ validation_log.txt\n")
     
-    print("="*70)
-    print(f"  SUCCESS! {total_valid} live channels ready")
-    print("="*70 + "\n")
+    print("="*80)
+    print(f"  ✓ SUCCESS! {total_valid} live, validated channels ready to use")
+    print(f"  ✓ Files: master_playlist.m3u | README.md | validation_log.txt")
+    print("="*80 + "\n")
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\n\n⚠️  Build cancelled by user")
+        sys.exit(1)
+    except Exception as e:
+        print(f"\n\n❌ Fatal error: {e}")
+        import traceback
+        traceback.print_exc()
+        sys.exit(1)

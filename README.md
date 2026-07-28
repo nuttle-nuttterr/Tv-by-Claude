@@ -10,8 +10,8 @@
 ✓ Retry logic (2 attempts per stream)  
 
 **Total live channels:** 457  
-**Last updated:** 2026-07-27 19:14:14 UTC  
-**Validation time:** 161.5s
+**Last updated:** 2026-07-28 01:32:39 UTC  
+**Validation time:** 157.8s
 
 ## Playlist URL
 ```
@@ -32,9 +32,9 @@ https://raw.githubusercontent.com/nuttle-nuttterr/Tv-by-Claude/main/master_playl
 | English National News | 7 |
 | English International News | 3 |
 | English Business News | 2 |
-| English Infotainment | 4 |
+| English Infotainment | 5 |
 | English Lifestyle & Travel | 2 |
 | English Kids | 3 |
 | Local Channels | 8 |
-| Tamil Local Channels | 380 |
+| Tamil Local Channels | 379 |
 | Tamil IPTV Channels | 15 |

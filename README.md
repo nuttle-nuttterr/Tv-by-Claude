@@ -10,8 +10,8 @@
 ✓ Retry logic (2 attempts per stream)  
 
 **Total live channels:** 488  
-**Last updated:** 2026-09-08 10:18:17 UTC  
-**Validation time:** 154.6s
+**Last updated:** 2026-09-08 15:40:36 UTC  
+**Validation time:** 157.0s
 
 ## Playlist URL
 ```

@@ -9,9 +9,9 @@
 ✓ Concurrent validation (25 parallel workers)  
 ✓ Retry logic (2 attempts per stream)  
 
-**Total live channels:** 478  
-**Last updated:** 2026-09-19 15:02:48 UTC  
-**Validation time:** 125.4s
+**Total live channels:** 447  
+**Last updated:** 2026-09-19 19:46:55 UTC  
+**Validation time:** 122.5s
 
 ## Playlist URL
 ```
@@ -36,5 +36,5 @@ https://raw.githubusercontent.com/nuttle-nuttterr/Tv-by-Claude/main/master_playl
 | English Lifestyle & Travel | 2 |
 | English Kids | 3 |
 | Local Channels | 8 |
-| Tamil Local Channels | 400 |
+| Tamil Local Channels | 369 |
 | Tamil IPTV Channels | 13 |

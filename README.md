@@ -9,9 +9,9 @@
 ✓ Concurrent validation (25 parallel workers)  
 ✓ Retry logic (2 attempts per stream)  
 
-**Total live channels:** 444  
-**Last updated:** 2026-11-06 22:33:30 UTC  
-**Validation time:** 164.6s
+**Total live channels:** 468  
+**Last updated:** 2026-11-07 03:44:25 UTC  
+**Validation time:** 165.1s
 
 ## Playlist URL
 ```
@@ -22,20 +22,20 @@ https://raw.githubusercontent.com/nuttle-nuttterr/Tv-by-Claude/main/master_playl
 | Category | Count |
 |---|---|
 | Tamil GEC | 5 |
-| Tamil Movies | 3 |
-| Tamil News | 3 |
+| Tamil Movies | 4 |
+| Tamil News | 2 |
 | Tamil Comedy | 1 |
 | Tamil Music | 2 |
 | Tamil Spiritual & Devotional | 7 |
-| Sports | 5 |
+| Sports | 6 |
 | English GEC | 1 |
-| English Movies | 3 |
+| English Movies | 6 |
 | English National News | 6 |
 | English International News | 4 |
 | English Business News | 2 |
 | English Infotainment | 4 |
 | English Lifestyle & Travel | 1 |
-| English Kids | 2 |
+| English Kids | 3 |
 | Local Channels | 8 |
-| Tamil Local Channels | 374 |
+| Tamil Local Channels | 393 |
 | Tamil IPTV Channels | 13 |
